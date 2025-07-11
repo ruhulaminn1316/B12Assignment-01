@@ -128,5 +128,59 @@ justify-content: space-between;
 /* main part-03 /form */
 .form-part{
 
-    
+margin: 150px 150px 15px 150px;
 }
+.form-section{
+background-color: #FFFFFF;
+padding: 40px;
+border-radius: 12px;
+
+}
+.part-3-form{
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.form-h{
+    font-size: 97px;
+    font-weight: 700;
+    color: rgb(0, 0, 0 );
+    padding: 200px 0px 200px 0px;
+}
+input{
+    margin: 5px 0px;
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(214,221,237);
+    background-color: rgb(255, 255, 255);
+}
+::placeholder, textarea {
+    padding:20px 32px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 0, 0, 0.5);
+}
+label{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+
+}
+
+textarea{
+    height: 135px;
+    width: 400px;
+    margin-top: 5px;
+    border-radius: 10px;
+     box-sizing: border-box;
+      border: 1px solid rgb(214,221,237);
+    background-color: rgb(255, 255, 255);
+}
+
+#btn-size{
+    width: 400px;
+    margin-top: 10px;
+}
+
+
