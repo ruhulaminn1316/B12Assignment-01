@@ -53,6 +53,14 @@ nav ul li a{
     
 
 }
+/* bonus part */
+.btn-primary:hover{
+    color: rgb(1, 8, 14);
+    background-color: chocolate;
+    font-size: 18px;
+
+
+}
 
 .banner-content{
     text-align: center;
@@ -137,7 +145,8 @@ margin: 150px 150px 15px 150px;
 
 .part-3-form{
     display: flex;
-    justify-content: center;align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 .form-h{
     font-size: 97px;
@@ -175,6 +184,7 @@ textarea{
      box-sizing: border-box;
       border: 1px solid rgb(214,221,237);
     background-color: rgb(255, 255, 255);
+    
 }
 
 #btn-size{
@@ -193,8 +203,8 @@ textarea{
 }
 .div-footer ul {
     display: flex;
-    gap: 48px;
-    padding-left: 210px;
+    gap: 46px;
+    padding-left: 207px;
     list-style: none;
   
 }
@@ -204,11 +214,86 @@ textarea{
 }
 .div-footer-p{
      color: rgb(137, 135, 161);
-     padding: 10px 145px;
+     padding: 10px 140px;
 }
 .footer-logo{
 font-size: 100px;
 font-weight: 900;
 color: #4E47FF;
 
+}
+
+
+/* bonus part */
+.bonus-section{
+
+margin: 120px 155px 120px 140px;
+
+
+}
+.bonus-h{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #242532;
+    margin-bottom: 50px;
+}
+
+.card{
+width: 350px;
+padding: 24px;
+/* background-color: aqua; */
+border-radius: 14px;
+box-sizing: border-box;
+background-color: rgb(255, 255, 255,0.5);
+
+}
+
+.img-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.bonus-h2{
+font-size: 24px;
+font-weight: 600;
+color: rgb(30, 30, 30);
+padding-bottom: 10px;
+
+
+}
+
+.bonus-div-img{
+
+display: flex;
+
+}
+.last-img{
+border-radius: 100%;
+}
+.last-p{
+      font-size: 16px;
+    font-weight: 400;
+    color: rgb(30, 30, 30);
+
+padding-bottom: 20px;
+}
+
+.last-h4{
+    padding-left: 10px;
+}
+.last-h4 h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(117, 117, 117);
+}
+.last-h4 p{
+      font-size: 16px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+.card-flex{
+    display: flex;
+    gap: 5px;
+    /* padding-right: 10px; */
 }
