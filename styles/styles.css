@@ -16,6 +16,7 @@
 /* banner section */
 .header-section{
     background-image: url(../images/Hero-bg.png);
+    max-width: 1440px;
 }
 .banner-section-nav{
     display: flex;
@@ -49,7 +50,7 @@ nav ul li a{
 
 }
 
-.banner-contant{
+.banner-content{
     text-align: center;
     padding: 0px 250px;
     padding-bottom: 50px;
@@ -59,4 +60,32 @@ font-size: 65px;
 font-weight: 700;
 color: #242532;
 padding-bottom: 37px;
+}
+
+
+
+/* section-02 main section/Action section  */
+.action-section{
+    margin: 116px 159px 116px 141px;
+}
+.action-section-content{
+display: flex;
+justify-content: space-between;
+}
+.action-h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #242532;
+    padding-top: 62px;
+    padding-bottom: 23px;
+}
+.action-p{
+    font-size: 24px;
+    padding-right: 150px;
+    margin-bottom: 23px;
+    color:rgb(37, 36, 50, 0.5) ;
+}
+.action-img{
+    border-radius: 48px;
+    
 }
