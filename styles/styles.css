@@ -1,6 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+
+}
+body{
+    background-color: rgb(245, 248, 255);
 }
 /* body part */
 .raleway-fonts{
@@ -130,12 +134,7 @@ justify-content: space-between;
 
 margin: 150px 150px 15px 150px;
 }
-.form-section{
-background-color: #FFFFFF;
-padding: 40px;
-border-radius: 12px;
 
-}
 .part-3-form{
     display: flex;
     justify-content: center;align-items: center;
@@ -184,3 +183,32 @@ textarea{
 }
 
 
+/* footer section  */
+
+.footer-section{
+    background-color: rgb(255, 255, 255);
+    padding: 103px 255px 104px 254px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.div-footer ul {
+    display: flex;
+    gap: 48px;
+    padding-left: 210px;
+    list-style: none;
+  
+}
+.div-footer ul li a{
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+}
+.div-footer-p{
+     color: rgb(137, 135, 161);
+     padding: 10px 145px;
+}
+.footer-logo{
+font-size: 100px;
+font-weight: 900;
+color: #4E47FF;
+
+}
