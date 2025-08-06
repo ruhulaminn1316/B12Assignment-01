@@ -204,7 +204,8 @@ textarea{
 .div-footer ul {
     display: flex;
     gap: 46px;
-    padding-left: 207px;
+    justify-content: center;
+    align-items: center;
     list-style: none;
   
 }
@@ -214,7 +215,8 @@ textarea{
 }
 .div-footer-p{
      color: rgb(137, 135, 161);
-     padding: 10px 140px;
+     margin-bottom: 10px;
+
 }
 .footer-logo{
 font-size: 100px;
